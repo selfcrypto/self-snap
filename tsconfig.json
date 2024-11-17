@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "jsx": "react-jsx",
+    "jsxImportSource": "@metamask/snaps-sdk",
+    "target": "ES2020",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}

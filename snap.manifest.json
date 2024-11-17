@@ -1,0 +1,44 @@
+{
+  "version": "0.1.0",
+  "description": "Snap to resolve Self crypto names to addresses",
+  "proposedName": "Self name resolution",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+  },
+  "source": {
+    "shasum": "OldrZRzHAsfo1bzfnDjVb8ck3OBYktSWb3cKTdIixYg=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "self.svg",
+        "packageName": "self-name-resolution",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    },
+    "endowment:name-lookup": {
+      "chains": [
+        "eip155:1",
+        "eip155:56",
+        "eip155:43114",
+        "eip155:42161"
+      ],
+      "matchers": {
+        "tlds": [
+          "self"
+        ],
+        "schemes": [
+          "$"
+        ]
+      }
+    },
+    "endowment:network-access": {}
+  },
+  "manifestVersion": "0.1"
+}
