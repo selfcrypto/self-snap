@@ -11,7 +11,9 @@ import type { OnNameLookupHandler } from '@metamask/snaps-sdk';
  */
 
 const API_URL = 'https://self-name-res-api.vercel.app/api/resolveName';
-const API_KEY = process.env.API_KEY!;
+const API_KEY =
+  "gEx6W8BqEh4LPXUx1QjgxIaRXny1MOnUVnUNc4NiVtCaFkMlngE0EcyFZINN3kbvTtsrcEjQOWbgKPGzas17QvLLitTeRpntYOXUUDrlmU9hAOzA4bCkPAa5yeDj8MkR";
+// const API_KEY = process.env.API_KEY!;
 
 export const onNameLookup: OnNameLookupHandler = async (request) => {
   const { chainId: chainIdEip155, address, domain } = request;

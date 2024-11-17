@@ -2,7 +2,7 @@ import type { SnapConfig } from "@metamask/snaps-cli";
 import { resolve } from "path";
 import * as dotenv from "dotenv";
 
-dotenv.config({ silent: true });
+dotenv.config();
 
 const config: SnapConfig = {
   bundler: "webpack",

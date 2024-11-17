@@ -4,7 +4,7 @@
   "description": "Snap to resolve Self crypto names to addresses",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+    "url": "https://github.com/selfcrypto/self-snap.git"
   },
   "license": "MIT",
   "main": "./dist/bundle.js",

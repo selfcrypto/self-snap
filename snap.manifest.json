@@ -4,10 +4,10 @@
   "proposedName": "Self name resolution",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+    "url": "https://github.com/selfcrypto/self-snap.git"
   },
   "source": {
-    "shasum": "OldrZRzHAsfo1bzfnDjVb8ck3OBYktSWb3cKTdIixYg=",
+    "shasum": "7M2e1JHzLWyjELQQE1QO3xqqMYSF6tkuW1a/baeo7mI=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
