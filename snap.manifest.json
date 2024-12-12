@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "Snap to resolve Self crypto names to addresses",
   "proposedName": "Self name resolution",
   "repository": {
@@ -7,7 +7,7 @@
     "url": "https://github.com/selfcrypto/self-snap.git"
   },
   "source": {
-    "shasum": "7M2e1JHzLWyjELQQE1QO3xqqMYSF6tkuW1a/baeo7mI=",
+    "shasum": "K3ZJb+adkNl1okCbT2zyHo4ii0FaSrYzEcBIezlV3ks=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
