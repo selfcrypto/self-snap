@@ -1,6 +1,6 @@
 {
   "name": "self-name-resolution",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Snap to resolve Self crypto names to addresses",
   "repository": {
     "type": "git",
